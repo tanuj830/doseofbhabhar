@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: Poppins,sans-serif;
+  background: #000;
+  /* background: linear-gradient(203deg, rgba(192, 90, 255, 1) 0%, rgba(67, 39, 158, 1) 100%);
+background: linear-gradient(250deg, rgba(255, 85, 219, 1) 24%, rgba(52, 108, 255, 1) 100%); */
+}
+
+.main_color{
+  color: #00DA92;
+}
+.light_black{
+  color: #171E20;
+}
+.gradient{
+  @apply bg-gradient-to-bl  from-[#152273] to-black
+}
+
+.pink-grad{
+  font-size: 30px;
+  font-weight: 600;
+  background: linear-gradient(250deg,#ff55db 24%,#346cff);
+  
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
