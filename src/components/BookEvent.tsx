@@ -3,7 +3,7 @@ import React from 'react'
 const BookEvent = () => {
   return (
       <div className='mt-4 md:mt-10 '>
-             <div className=' flex justify-center items-center bg-[url(https://images.pexels.com/photos/6648497/pexels-photo-6648497.jpeg?auto=compress&cs=tinysrgb&w=4000)] bg-no-repeat bg-cover h-screen'>
+             <div className=' flex justify-center items-center bg-[url(https://images.pexels.com/photos/6648497/pexels-photo-6648497.jpeg?auto=compress&cs=tinysrgb&w=4000)] bg-no-repeat bg-contain lg:bg-cover h-screen'>
       <div className='relative p-4 lg:p-20 '>
         <h2 className='pink-grad text-center pt-10'>BOOK FOR SPECIAL EVENT</h2>
         <div className='lg:px-[260px] '>
