@@ -48,7 +48,7 @@ const Header = () => {
             {/* <div> */}
             {showMenu === true ? (
               <div className="relative  w-full   py-1">
-                <div style={{backgroundColor:"rgba(0, 0, 0, 0.741)", backdropFilter: "blur(7px)"}} className="absolute    rounded-b-3xl  text-white h-screen w-full text-2xl  p-10">
+                <div style={{backgroundColor:"rgba(0, 0, 0, 0.741)", backdropFilter: "blur(7px)"}} className="absolute transition-all duration-1000    rounded-b-3xl  text-white h-screen w-full text-2xl  p-10">
                   <div className="flex justify-evenly  w-full h-full flex-col">
                     <div className='text-center'>
                     <Link className="brightness-200" href="/project">

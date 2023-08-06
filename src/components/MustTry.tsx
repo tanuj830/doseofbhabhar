@@ -18,10 +18,10 @@ const Skills = () => {
     ]
 
   return (
-    <div className='p-4 lg:p-20 mt-10'>
+    <div className='relative p-4 lg:p-20 mt-10 '>
         <h2 className='pink-grad text-center'>MUST TRY </h2>
-        <div className='lg:px-[260px] py-10 lg:py-14'>
-            <p className='text-[24px] text-gray-600 font-medium tracking-widest text-center'>If you're offered a seat on a rocket ship, don't ask what seat. Just get on. So try our most liked stuffs from peoples.</p>
+        <div className='lg:px-[260px] py-10 lg:py-14 '>
+            <p className='text-[24px] text-white font-medium tracking-widest text-center'>If you're offered a seat on a rocket ship, don't ask what seat. Just get on. So try our most liked stuffs from peoples.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-2'>
             {
@@ -33,6 +33,7 @@ const Skills = () => {
                 ))
             }
         </div>
+        <img className="h-20 w-full absolute -bottom-10 object-cover blur-md " src="https://tse4.explicit.bing.net/th?id=OIP.gkjCkvH2TbmFUlFwvnaNUgHaEo&pid=Api&P=0&h=180" alt="" />
     </div>
   )
 }
